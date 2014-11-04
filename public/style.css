@@ -1,0 +1,67 @@
+html {
+	background: url(images/blurry-visitors.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1 {
+	padding: 20px 20px 20px 20px;
+	margin: 20px -20px 20px 20px;
+	color: #F00000;
+	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+	font-size: 100px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	background-color: #123546;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+h3 {
+	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+}
+.in {
+	padding: 20px 20px 20px 20px;
+	margin: 20px -20px 20px 20px;
+	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	background-color: #FFF;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.out {
+	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 20px -20px;
+	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: #000072;
+	background-color: #F7EE6A;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+blockquote {
+	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+}
+pre {
+	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;	
+}
