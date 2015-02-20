@@ -1,4 +1,15 @@
 <div class="hero">
+<button type="button" class="js-menu-trigger sliding-menu-button">
+  <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/menu-white.png" alt="Menu Icon">
+</button>
+
+<nav class="js-menu sliding-menu-content">
+  <ul>
+    <li><a href="javascript:void(0)">Item 1</a></li>
+    <li><a href="javascript:void(0)">Item 2</a></li>
+    <li><a href="javascript:void(0)">Item 3</a></li>
+  </ul>
+</nav> 
 	<div class="hero-inner">
 		<div class="hero-copy">
 			<h1>Talamantez</h1>
@@ -7,3 +18,17 @@
     <button>Learn More</button>
 	</div>
 </div>
+
+<script>$(document).ready(function(){
+  $('.js-menu-trigger,.js-menu-screen').on('click touchstart',function (e) {
+    $('.js-menu,.js-menu-screen').toggleClass('is-visible');
+    console.log('this.hidden' + this.hidden);
+    e.preventDefault();
+  });
+  $('.js-menu, .js-menu-screen').on('click touchstart', function (e) {
+    $('.js-menu,.js-menu-screen').toggleClass('is-visible');
+    console.log('this.hidden' + this.hidden);  	
+  	e.preventDefault();
+});
+});
+</script>

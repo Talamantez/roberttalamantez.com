@@ -1,0 +1,26 @@
+{
+  "name": "roberttalamantez.com",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Talamantez/roberttalamantez.com",
+  "authors": [
+    "Talamantez <robert.talamantez2@gmail.com>"
+  ],
+  "description": "Portfolio",
+  "main": "app.js",
+  "keywords": [
+    "Portfolio",
+    "Responsive"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}

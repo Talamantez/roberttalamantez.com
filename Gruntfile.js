@@ -31,31 +31,32 @@ module.exports = function(grunt) {
         files: ['sass/**/*.sass', 'sass/**/*.scss'],
         tasks: ['sass']
       } 
-    }/*,
-    copy: {
-          main: {
-            files: [
-              {expand: true, src: ['path/**'], dest: 'dest/'},
-              {expand: true, cwd: 'path/', src: ['**'], dest: 'dest/'},
-              {expand: true, flatten: true, src: ['src/views/**'], dest: 'dist/', filter: 'isFile'},
-              {expand: true, flatten: true, src: ['src/img/**'], dest: 'dist/img/', filter:'isFile'}
-            ]
-         }
-      } */   
+    },
+    uglify: {
+       bower: {
+        options: {
+          mangle: true,
+          compress: true
+        },
+          files: {
+            'public/js/jquery.min.js': 'bower_components/jquery/dist/jquery.js'
+          } 
+      }
+    }
   });
 
 // load all tasks
   require('load-grunt-tasks')(grunt);
 
 // empty the dist folder
-  grunt.registerTask('clear-dist', 'clean')
+  grunt.registerTask('clear-dist', 'clean');
 
 // generate ccs file from sass
   grunt.registerTask('sassy', ['sass']);
 
 // default task
-  grunt.registerTask('default', ['clear-dist','sassy','test']);
-  
+  grunt.registerTask('default', ['jshint','clear-dist','sassy','uglify','test']);
+
   grunt.registerTask('test', 'run tests', function () {
     var done = this.async();
     require('child_process').exec('npm test', function (err, stdout) {
