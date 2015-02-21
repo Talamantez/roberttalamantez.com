@@ -2,12 +2,12 @@
   "name": "Portfolio",
   "version": "0.0.1",
   "description": "Portfolio",
-  "engines" : {
-    "node" : "0.10.x"
-   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "main": "app.js",
   "scripts": {
-    "start": "node app",
+    "start": "nodemon app",
     "test": "make test",
     "postinstall": "echo postinstall time;gem install sass; bower install && grunt"
   },
@@ -19,6 +19,7 @@
     "chai-as-promised": "^4.1.1",
     "express": "^4.10.2",
     "express-handlebars": "^1.2.1",
+    "forever": "^0.14.1",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-clean": "^0.6.0",
@@ -34,7 +35,8 @@
     "mocha-phantomjs": "^3.5.2",
     "node-bourbon": "~1.0.0",
     "node-neat": "^1.4.2",
-    "node-refills": "^1.0.1"
+    "node-refills": "^1.0.1",
+    "nodemon": "^1.3.7"
   },
   "devDependencies": {
     "phantomjs": "^1.9.13",
