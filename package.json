@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node app",
     "test": "make test",
-    "postinstall": "echo postinstall time;./node_modules/grunt-cli/bin/grunt"
+    "postinstall": "echo postinstall time; bower install && grunt"
   },
   "author": "Robert Talamantez",
   "license": "MIT",
@@ -35,11 +35,10 @@
     "node-bourbon": "~1.0.0",
     "node-neat": "^1.4.2",
     "node-refills": "^1.0.1",
+  },
+  "devDependencies": {
     "phantomjs": "^1.9.13",
     "supertest": "^0.15.0",
     "supervisor": "^0.6.0"
-  },
-  "devDependencies": {
-    "grunt-cli": "^0.1.13"
   }
 }
