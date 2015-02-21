@@ -2,6 +2,9 @@
   "name": "Portfolio",
   "version": "0.0.1",
   "description": "Portfolio",
+  "engines" : {
+    "node" : "0.10.x"
+   }
   "main": "app.js",
   "scripts": {
     "start": "node app",
