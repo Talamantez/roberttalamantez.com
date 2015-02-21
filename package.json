@@ -34,7 +34,7 @@
     "mocha-phantomjs": "^3.5.2",
     "node-bourbon": "~1.0.0",
     "node-neat": "^1.4.2",
-    "node-refills": "^1.0.1",
+    "node-refills": "^1.0.1"
   },
   "devDependencies": {
     "phantomjs": "^1.9.13",
