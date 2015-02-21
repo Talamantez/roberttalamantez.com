@@ -6,10 +6,7 @@
   "scripts": {
     "start": "node app",
     "test": "make test",
-    "postinstall": "echo postinstall time; 
-                   gem install sass;
-                  ./node_modules/.bin/bower install;
-                  ./node_modules/grunt-cli/bin/grunt"
+    "postinstall": "echo postinstall time; gem install sass;./node_modules/.bin/bower install;./node_modules/grunt-cli/bin/grunt"
   },
   "author": "Robert Talamantez",
   "license": "MIT",
