@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node app",
     "test": "make test",
-    "postinstall": "echo postinstall time; bower install && grunt"
+    "postinstall": "echo postinstall time; sudo gem install sass; bower install && grunt"
   },
   "author": "Robert Talamantez",
   "license": "MIT",
