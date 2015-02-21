@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app",
     "test": "make test",
-    "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt --force"    
+    "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt default"    
   },
   "author": "Robert Talamantez",
   "license": "MIT",
