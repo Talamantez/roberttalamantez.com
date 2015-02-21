@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app",
     "test": "make test",
-    "postinstall": "echo postinstall time; gem install sass;./node_modules/.bin/bower install;./node_modules/grunt-cli/bin/grunt"
+    "postinstall": "echo postinstall time;./node_modules/grunt-cli/bin/grunt"
   },
   "author": "Robert Talamantez",
   "license": "MIT",
@@ -36,5 +36,7 @@
     "supertest": "^0.15.0",
     "supervisor": "^0.6.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "grunt-cli": "^0.1.13"
+  }
 }
