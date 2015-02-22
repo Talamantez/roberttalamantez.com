@@ -21,9 +21,7 @@ module.exports = function(grunt) {
         files: {
           'public/css/style.css': 'sass/style.scss'
         }
-      }//,
-//      options: {
-//         bundleExec: true
+      }
       }
     },
     watch: {
