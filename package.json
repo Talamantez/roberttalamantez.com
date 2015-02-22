@@ -8,8 +8,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app",
-    "test": "make test",
-    "postinstall": "echo postinstall time;gem install sass; bower install && grunt"
+    "test": "make test"
+   // "postinstall": "echo postinstall time;gem install sass; bower install && grunt"
   },
   "author": "Robert Talamantez",
   "license": "MIT",
