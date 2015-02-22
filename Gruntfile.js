@@ -64,4 +64,6 @@ module.exports = function(grunt) {
       done(err);
     });
   });
+  // create heroku deployment tasks
+  grunt.registerTask('heroku:production', ['clear-dist','sassy','uglify','test']);
 };
