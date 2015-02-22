@@ -9,7 +9,7 @@
   "scripts": {
     "start": "nodemon app",
     "test": "make test",
-    "postinstall": "echo postinstall time;gem install sass; bower install && grunt"
+    "postinstall": "echo postinstall time;echo gem installing sass; gem install sass; echo bower installing; bower install; echo running grunt;grunt"
   },
   "author": "Robert Talamantez",
   "license": "MIT",
