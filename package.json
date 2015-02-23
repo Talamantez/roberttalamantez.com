@@ -8,8 +8,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app",
-    "test": "make test",
-    "postinstall": "echo postinstall time; grunt"
+    "test": "make test"
   },
   "author": "Robert Talamantez",
   "license": "MIT",
