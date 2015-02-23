@@ -53,7 +53,7 @@ module.exports = function(grunt) {
   grunt.registerTask('sassy', ['sass']);
 
 // default task
-  grunt.registerTask('default', ['clear-dist','sassy','uglify','test']);
+  grunt.registerTask('default', ['clear-dist','jshint','sassy','uglify','test']);
 
   grunt.registerTask('test', 'run tests', function () {
     var done = this.async();
