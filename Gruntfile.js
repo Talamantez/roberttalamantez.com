@@ -14,16 +14,13 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options:{
-              loadPath: require('node-bourbon').includePaths,
-              loadPath: require('node-neat').includePaths,
               loadPath: require('node-refills').includePaths
             },
         files: {
           'public/css/style.css': 'sass/style.scss'
         }
       }
-      }
-    },
+   },
     watch: {
       options:{
         livereload: true,
