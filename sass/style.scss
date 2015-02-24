@@ -2,50 +2,7 @@
 @import 'base/base';
 @import 'neat';
 @import 'neat-config';
+@import 'breakpoint-settings';
 @import 'config';
 @import 'reset/manifest';
 @import 'refills/manifest';
-
-/*
-html,body {
-	margin: 0;
-	padding: 0;
-}
-h1 {
-	@extend %box;
-	color: $color-primary;
-	width: 100%;
-	position: absolute;
-	font-size: 100px;
-	font-weight: bold;
-	background-color: $background-color-primary;
-}
-h3 {
-	@extend %box;
-	font-weight: bold;
-}
-.in {
-	@extend %box;
-	background-color: #FFF;
-}
-.out {
-	@extend %box;
-	padding: $padding-primary;
-	margin: $margin-primary;
-	color: $color-secondary;
-	background-color: #F7EE6A;
-}
-
-blockquote {
-	@extend %box;
-	font-size: 21px;
-}
-pre {
-	@extend %box;
-	font-size: 13px;
-}
-img, image{
-  position: relative;
-  margin: 0;
-  max-width: 100%; }
-*/

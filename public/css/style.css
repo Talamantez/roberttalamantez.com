@@ -235,6 +235,33 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
+@media screen and (min-width: 25em) and (max-width: 43.75em) {
+  .element {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    font-size: 2em; }
+    .element:last-child {
+      margin-right: 0; }
+    .element:nth-child(2n) {
+      margin-right: 0; }
+    .element:nth-child(2n+1) {
+      clear: left; } }
+@media screen and (min-width: 43.8125em) {
+  .element {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    font-size: 1.1em; }
+    .element:last-child {
+      margin-right: 0; }
+    .element:nth-child(3n) {
+      margin-right: 0; }
+    .element:nth-child(3n+1) {
+      clear: left; } }
+
 body {
   -webkit-backface-visibility: hidden;
   background-color: white;
@@ -1323,49 +1350,5 @@ th {
   .menu-screen.is-visible {
     opacity: .4;
     visibility: visible; }
-
-/*
-html,body {
-	margin: 0;
-	padding: 0;
-}
-h1 {
-	@extend %box;
-	color: $color-primary;
-	width: 100%;
-	position: absolute;
-	font-size: 100px;
-	font-weight: bold;
-	background-color: $background-color-primary;
-}
-h3 {
-	@extend %box;
-	font-weight: bold;
-}
-.in {
-	@extend %box;
-	background-color: #FFF;
-}
-.out {
-	@extend %box;
-	padding: $padding-primary;
-	margin: $margin-primary;
-	color: $color-secondary;
-	background-color: #F7EE6A;
-}
-
-blockquote {
-	@extend %box;
-	font-size: 21px;
-}
-pre {
-	@extend %box;
-	font-size: 13px;
-}
-img, image{
-  position: relative;
-  margin: 0;
-  max-width: 100%; }
-*/
 
 /*# sourceMappingURL=style.css.map */
