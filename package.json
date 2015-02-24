@@ -9,7 +9,7 @@
   "scripts": {
     "start": "nodemon app",
     "test": "make test",
-    "postinstall": "grunt"
+    "postinstall": "echo running postinstall; gem install sass; grunt"
   },
   "author": "Robert Talamantez",
   "license": "MIT",
