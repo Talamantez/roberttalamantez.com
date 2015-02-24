@@ -8,6 +8,7 @@ $sliding-menu-color-hover: #fff;
 .sliding-menu-button {
   @include button(simple, $base-background-color);
   @include inline-block;
+  float: right;
   cursor: pointer;
   font-size: $base-font-size;
   margin-bottom: $base-line-height;
