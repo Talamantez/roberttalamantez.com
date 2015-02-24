@@ -1,5 +1,7 @@
 $first-breakpoint-value: 400px;
 $second-breakpoint-value: 700px;
+$mobile-breakpoint-value: 500px; 
+
 
 $medium-viewport: new-breakpoint(min-width em($first-breakpoint-value) max-width em($second-breakpoint-value));
 
@@ -16,5 +18,10 @@ $large-viewport: new-breakpoint(min-width em($second-breakpoint-value + 1));
     @include span-columns(12);
     @include omega(3n);
     font-size: 1.1em;
+  }
+  @include media($mobile){
+    @include span-columns(12);
+    @include omega(2n);
+    font-size: 2em;
   }
 }
