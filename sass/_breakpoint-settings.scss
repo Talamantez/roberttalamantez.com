@@ -1,6 +1,6 @@
 $first-breakpoint-value: 400px;
 $second-breakpoint-value: 700px;
-$mobile-breakpoint-value: 500px; 
+$mobile: new-breakpoint(max-width 480px 4);
 
 
 $medium-viewport: new-breakpoint(min-width em($first-breakpoint-value) max-width em($second-breakpoint-value));

@@ -261,6 +261,19 @@ html {
       margin-right: 0; }
     .element:nth-child(3n+1) {
       clear: left; } }
+@media screen and (max-width: 480px) {
+  .element {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 314.84594%;
+    font-size: 2em; }
+    .element:last-child {
+      margin-right: 0; }
+    .element:nth-child(2n) {
+      margin-right: 0; }
+    .element:nth-child(2n+1) {
+      clear: left; } }
 
 body {
   -webkit-backface-visibility: hidden;
