@@ -11,13 +11,13 @@ $large-viewport: new-breakpoint(min-width em($second-breakpoint-value + 1));
   @include media($medium-viewport) {
     @include span-columns(12);
     @include omega(2n);
-    font-size: 2em;
+    font-size: 1.2em;
   }
 
   @include media($large-viewport) {
     @include span-columns(12);
     @include omega(3n);
-    font-size: 2em;
+    font-size: 1.2em;
   }
   @include media($mobile){
 

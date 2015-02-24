@@ -20,12 +20,12 @@
 			<h1>Talamantez</h1>
 			<p>Responsive Design</p>	
 		</div>
-    <button>Learn More</button>
+    <button id='portfolio'>Portfolio</button>
 	</div>
 </div>
 
 <script>$(document).ready(function(){
-  $('.js-menu-trigger,.js-menu-screen').on('click touchstart',function (e) {
+  $('.js-menu-trigger,.js-menu-screen,#portfolio').on('click touchstart',function (e) {
     $('.js-menu,.js-menu-screen').toggleClass('is-visible');
     console.log('this.hidden' + this.hidden);
     e.preventDefault();
